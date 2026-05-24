@@ -1,56 +1,56 @@
-# OTI - Converter 🚀
+# OTI - Converter
 
-**OTI - Converter** es una suite de utilidades de escritorio desarrollada en Python orientada a la optimización, conversión y gestión de archivos PDF y documentos ofimáticos. Diseñada específicamente para facilitar los flujos de trabajo documentales (como en municipalidades u oficinas de atención).
+**OTI - Converter** is a desktop utility suite developed in Python aimed at the optimization, conversion, and management of PDF and office documents. It is specifically designed to facilitate document workflows (such as those in municipalities or customer service offices).
 
-## ✨ Características Principales
+## Main Features
 
-*   **PDF a Word:** Conversión precisa de documentos PDF a formato editable `.docx`.
-*   **Comprimir PDF:** Motor de compresión inteligente que reduce el tamaño de los documentos pesados limpiando objetos huérfanos y reduciendo los DPI, ideal para envíos por correo o subidas a plataformas estatales.
-*   **Word / Excel / PowerPoint a PDF:** Conversión bidireccional nativa a PDF.
-*   **PDF a Imágenes:** Extrae páginas completas en formato `.jpg` o `.png`.
-*   **Imágenes a PDF:** Compila recibos, fotos o escaneos en un único documento PDF.
-*   **Fusión y División de PDF:** Une varios documentos o extrae páginas específicas.
-*   **Seguridad:** Quita contraseñas de PDFs (si tienes la original).
+*   **PDF to Word:** Accurate conversion from PDF documents to editable `.docx` format.
+*   **Compress PDF:** Smart compression engine that reduces the size of heavy documents by cleaning orphaned objects and reducing DPI, ideal for email attachments or government platform uploads.
+*   **Word / Excel / PowerPoint to PDF:** Native two-way conversion to PDF.
+*   **PDF to Images:** Extracts full pages in `.jpg` or `.png` format.
+*   **Images to PDF:** Compiles receipts, photos, or scans into a single PDF document.
+*   **Merge and Split PDF:** Combines multiple documents or extracts specific pages.
+*   **Security:** Removes PDF passwords (if the original password is known).
 
-## 🛠️ Tecnologías Usadas
+## Technologies Used
 
-*   **Lenguaje:** Python 3.13
-*   **Interfaz Gráfica (UI):** CustomTkinter (diseño moderno y oscuro).
-*   **Motores de Procesamiento:** `PyMuPDF (fitz)`, `pypdf`, `pdf2docx`, `docx2pdf`, `Pillow`.
-*   **Empaquetado:** PyInstaller y compilador Inno Setup para generar el ejecutable de Windows.
+*   **Language:** Python 3.13
+*   **Graphical Interface (UI):** CustomTkinter (modern dark design).
+*   **Processing Engines:** `PyMuPDF (fitz)`, `pypdf`, `pdf2docx`, `docx2pdf`, `Pillow`.
+*   **Packaging:** PyInstaller and Inno Setup compiler to generate the Windows executable.
 
-## 💻 Instalación (Para Desarrollo)
+## Installation (For Development)
 
-1. Clona este repositorio:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/tu-usuario/oti-converter.git
+   git clone https://github.com/your-username/oti-converter.git
    cd oti-converter
    ```
-2. Crea un entorno virtual y actívalo:
+2. Create and activate a virtual environment:
    ```bash
    python -m venv venv
    .\venv\Scripts\activate
    ```
-3. Instala las dependencias:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Inicia la aplicación:
+4. Start the application:
    ```bash
    python main.py
    ```
 
-## 📦 Compilación (Para Producción)
+## Compilation (For Production)
 
-Si deseas empaquetar el proyecto para que corra en computadoras sin Python instalado:
-1. Ejecuta el archivo `build.bat`. Esto creará los binarios usando PyInstaller y los pondrá en la carpeta `dist/OTI-Converter`.
-2. Ejecuta el archivo de Inno Setup `installer.iss` usando `ISCC.exe` o el programa gráfico de Inno Setup. 
-3. El instalador final `.exe` se guardará en la carpeta `Output/`.
+If you wish to package the project to run on computers without Python installed:
+1. Run the `build.bat` file. This will create the binaries using PyInstaller and place them in the `dist/OTI-Converter` folder.
+2. Run the Inno Setup file `installer.iss` using `ISCC.exe` or the Inno Setup graphical program. 
+3. The final `.exe` installer will be saved in the `Output/` folder.
 
-## 🤝 Contribución
+## Contribution
 
-Cualquier mejora, corrección de errores (bugs) o sugerencia de nuevas herramientas es bienvenida. Simplemente abre un *Issue* o envía un *Pull Request*.
+Any improvements, bug fixes, or suggestions for new tools are welcome. Simply open an *Issue* or submit a *Pull Request*.
 
-## 📜 Licencia
+## License
 
-Desarrollado para facilitar las labores administrativas y de tecnología de la información.
+Developed to facilitate administrative and information technology tasks.
