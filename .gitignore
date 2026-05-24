@@ -1,0 +1,30 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas de compilación e instaladores
+build/
+dist/
+Output/
+installer_output/
+*.spec
+
+# Archivos temporales de pruebas y logs
+scratch/
+test_out*.pdf
+scratch_temp*.jpg
+scratch_temp*.pdf
+*.log
+crash.txt
+
+# Carpetas del IDE
+.vscode/
+.idea/
+.pytest_cache/
